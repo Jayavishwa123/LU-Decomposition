@@ -13,7 +13,7 @@ To write a program to find the LU Decomposition of a matrix.
 2. Use lu(A) from scipy.linalg to compute matrices 𝑃,𝐿,𝑈.
 3. Store the lower and upper triangular matrices.
 4. Print matrices L and U.
-# Algorithm fro program 2:
+# Algorithm for program 2:
 1. Read coefficient matrix A and constant matrix B.
 2. Apply lu_factor(A) to get LU decomposition and pivot info.
 3. Use lu_solve() to solve AX=B using LU and pivot.
